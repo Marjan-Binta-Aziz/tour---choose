@@ -42,9 +42,8 @@ const Choose = () => {
             }
         </div>
         <div className="cart-container">
+            <div className='cart'>
             <Cart cart={cart}></Cart>
-            
-            <div className='buttons'>
                     <button className='button-choose' onClick={() => chooseRandom(cart)} >Choose</button>
                     <button className='button-chooseAgain' onClick={() => removePlace(cart)}>Choose Again</button>
                 </div>

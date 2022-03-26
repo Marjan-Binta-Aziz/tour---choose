@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+.header{
+    font-family: 'Palette Mosaic', cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: plum;
+    border-radius: 650px;
+}

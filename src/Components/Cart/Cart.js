@@ -7,11 +7,10 @@ const Cart = (props) => {
 
     return (
             <div className="cart">
-                <h2>Place you will go this weekend</h2>
+                <h2>You can Travel :</h2>
                 {
-                    cart.map(place => <li>{place.name}</li>)
+                    cart.map(place => <p>{place.name}</p>)
                 }
-                
             </div>
     );
 };
