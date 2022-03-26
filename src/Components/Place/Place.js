@@ -11,7 +11,7 @@ const Place = (props) => {
             <img src={img} alt="" />
             <p className='place-name'>{name} <small> {details}</small></p>
             <div className='place-info'>
-                <p><b>Visiting Cost: $ {price}</b> </p>
+                <p><b>Travailing Cost: $ {price}</b> </p>
             </div>
             
             <button onClick={()=> handleOnClick(place)} className='btn-cart'>
