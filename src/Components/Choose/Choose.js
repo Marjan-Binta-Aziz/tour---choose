@@ -12,7 +12,15 @@ const Choose = () => {
         const newCart = [...cart, place];
         console.log(place.name);
         setCart(newCart);
-
+    }
+    const removePlace = () => {
+        setCart([])
+    }
+    const chooseRandom = (cart) => {
+        const item = cart[Math.floor(Math.random() * cart.length)];
+        const cartArray = [];
+        cartArray.push(...cartArray, item)
+        setCart(cartArray);
     }
 
         //fetch data
@@ -34,10 +42,13 @@ const Choose = () => {
             }
         </div>
         <div className="cart-container">
-            
-            
             <Cart cart={cart}></Cart>
-
+            <div>
+            <div>
+                    <button className='button-choose' onClick={() => chooseRandom(cart)} >Choose</button>
+                    <button className='button-chooseAgain' onClick={() => removePlace(cart)}>Choose Again</button>
+                </div>
+            </div>
         </div>
     </div>
     );

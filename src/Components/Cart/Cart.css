@@ -3,3 +3,9 @@
     top: 0;
     padding-top: 40px;
 }
+.button-choose{
+    width: 100%;
+    background-color: gainsboro;
+    border: 2px solid black ;
+
+}
