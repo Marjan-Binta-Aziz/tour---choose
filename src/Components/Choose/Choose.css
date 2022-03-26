@@ -49,3 +49,27 @@
         grid-template-columns: 1fr;
     }
 }
+.question-ans{
+    padding-left: 50px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

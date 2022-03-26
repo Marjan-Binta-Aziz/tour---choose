@@ -8,9 +8,7 @@ const Choose = () => {
     const [cart,setCart] = useState([])
 
     const handleOnClick = (place) => {
-        // console.log(place);
         const newCart = [...cart, place];
-        console.log(place.name);
         setCart(newCart);
     }
     const removePlace = () => {
@@ -47,6 +45,25 @@ const Choose = () => {
                     <button className='button-choose' onClick={() => chooseRandom(cart)} >Choose</button>
                     <button className='button-chooseAgain' onClick={() => removePlace(cart)}>Choose Again</button>
                 </div>
+        </div>
+        <div className='question-ans'>
+            <h2>How React Works?</h2>
+            <p>React is a declarative, efficient, and flexible JavaScript library. its use for building user interfaces. The declarative view makes our code more acceptable and easier to debug. A React application is made of multiple components &  is responsible for rendering a small, reusable piece of HTML. React have own compiler which is named bable.</p>
+            <h2>Props vs state</h2>
+            <table>
+                <tr>
+                    <th>props</th>
+                    <th>state</th>
+                </tr>
+                <tr>
+                    <td>props are read-only</td>
+                    <td>state changes can be asynchronous </td>
+                </tr>
+                <tr>
+                    <td>props can not modified</td>
+                    <td>state  can be modified </td>
+                </tr>
+                </table>
         </div>
     </div>
     );
