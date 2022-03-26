@@ -15,7 +15,7 @@ const Place = (props) => {
             </div>
             
             <button onClick={()=> handleOnClick(place)} className='btn-cart'>
-                <p>Add to Cart</p>
+                <p className='text-cart'>Add to Cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>

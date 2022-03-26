@@ -25,10 +25,16 @@ font-size: 19px;
 line-height: 20px;
 color: #0E161A;
 }
+
+.text-cart{
+    padding-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .btn-cart{
     width: 100%;
-    background-color: papayawhip;
-    border: 1px solid #95A0A7;
+    background-color: darkseagreen;
+    border: 0px solid #95A0A7;
     position: absolute;
     bottom: 0;
     border-radius: 0px 0px 8px 8px;
@@ -36,3 +42,4 @@ color: #0E161A;
     align-items: center;
     justify-content: center;
 }
+

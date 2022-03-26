@@ -11,6 +11,7 @@ const Cart = (props) => {
                 {
                     cart.map(place => <li>{place.name}</li>)
                 }
+                
             </div>
     );
 };
